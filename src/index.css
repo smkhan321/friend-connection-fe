@@ -1,0 +1,262 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.createFormLInput {
+  background: #f8f8f8;
+  border: 1px solid #eaeff3;
+  border-radius: 15px;
+  box-shadow: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #686868 !important;
+  padding: 14px 18px;
+  width: 100%;
+}
+#basic-nav-dropdown{
+  padding-bottom: 0;
+}
+.notification.noNotification {
+  width: 100%;
+}
+.notification.noNotification .notificationP{
+  color: black;
+  font-size: 20px;
+}
+#basic-nav-dropdown img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.signUpStudent {
+  display: flex;
+}
+
+.sizeSet {
+  width: 211px;
+  height: 211px;
+  object-fit: cover;
+}
+.imgBorder {
+  border: 6px solid #82d051;
+  border-radius: 50%;
+  padding: 4px;
+  margin-bottom: 17px;
+}
+
+.upperForm {
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+.eror{
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+}
+.signUpStudentImg {
+  width: 100%;
+  height: 100%;
+}
+
+.signUpStudentForm {
+  margin-left: auto;
+  padding: 25px 50px;
+  width: 100%;
+  margin-right: auto;
+  max-width: 550px;
+  border: 1px solid #e8e3dd;
+  
+}
+
+.signUpStudent .signUpStudentAlignment {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb35 {
+  margin-bottom: 12px;
+}
+
+.signInMain {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.addMg{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: white;
+  text-decoration: none;
+  background: #82d051;
+  padding: 15px 20px;
+  border-radius: 16px;
+  display: block;
+  text-align: center;
+  width: fit-content;
+  transition: all 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #82d051;
+}
+.smallBtn {
+  padding: 2px 16px;
+  font-size: 14px;
+}
+.mt-2 {
+  margin-top: 10px;
+}
+.btn:hover {
+  color: #82d051;
+  background-color: unset;
+  border: 1px solid #82d051;
+}
+
+.nav-tabs .nav-link {
+  color: black;
+  /* border-color: black; */
+}
+.nav-tabs .nav-link.active {
+  color: #82d051;
+  border-color: #82d051;
+}
+.setBtn {
+  margin: 30px auto;
+}
+.reverseBtn {
+  color: #82d051;
+  background-color: white;
+  border: 1px solid #82d051;
+}
+.reverseBtn:hover {
+  color:  white;
+  background-color: #82d051;
+  border: 1px solid #82d051;
+}
+
+.bg-white {
+  background-color: white !important;
+}
+
+.notificationsMainDiv {
+  margin-top: 45px;
+  margin-bottom: 90px;
+}
+.noNotification {
+  font-size: 1rem !important;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.notificationH5 {
+  font-family: "Poppins";
+  font-weight: 500;
+  /* font-size: 14px; */
+  line-height: 21px;
+  color: #000000;
+}
+
+.notificationP {
+  font-family: "Poppins";
+  font-weight: 400;
+  /* font-size: 15px; */
+  margin-bottom: 0;
+  color: #9c9c9c;
+}
+.green {
+  color: #82d051;
+}
+.notification {
+  background: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  padding: 14px 40px 14px 25px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ededed;
+}
+
+.setNotificationsMainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.notification.setNoti {
+  width: 31%;
+}
+
+
+.notificationsMainDivunset{
+  margin: unset;
+}
+
+.towBtun{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 35px;
+
+}
+
+.btn.reverseBtn.activee{
+  color: white !important;
+  background-color: #82d051 !important;
+  /* border: 1px solid #82d051 !important; */
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+  border: 5px dotted #82d051;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+.setLod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; 
+}
+.alignUnset{
+  align-items: unset;
+}
+.boldr{
+  font-weight: bold;
+}
+.cancelBtn{
+  background-color: red;
+  border: 1px solid red;
+}
+.cancelBtn:hover{
+  background-color: unset;
+  color: red;
+  border: 1px solid red;
+}

@@ -1,0 +1,4 @@
+- Extract the files from the archive and open the code folder with IDE.
+- Navigate to the base code folder in your terminal or command prompt.
+- Run the command "npm install" to install the necessary Node modules.
+- After the installation is complete, type "npm run dev" and press Enter to start the development server.
