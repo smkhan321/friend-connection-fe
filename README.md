@@ -1,4 +1,5 @@
 - Extract the files from the archive and open the code folder with IDE.
+- replace the firebase configurations in src/firebase.tsx, (I know, it should have been done through environment file)
 - Navigate to the base code folder in your terminal or command prompt.
 - Run the command "npm install" to install the necessary Node modules.
 - After the installation is complete, type "npm run dev" and press Enter to start the development server.
